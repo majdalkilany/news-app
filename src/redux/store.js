@@ -3,7 +3,7 @@ import { persistStore, persistReducer } from 'redux-persist';
 import { configureStore } from '@reduxjs/toolkit';
 import storage from 'redux-persist/lib/storage';
 
-import { newsReducer, setArticle } from './newsSlice';
+import { newsReducer, setArticle, searchTerm } from './newsSlice';
 
 const persistConfig = {
   key: 'root', // Key for localStorage
@@ -19,6 +19,6 @@ const store = configureStore({
   },
 });
 export const persistor = persistStore(store);
-export { store, setArticle };
+export { store, setArticle, searchTerm };
 
 export * from './newsThunk';

@@ -2,8 +2,7 @@ import NewsList from '../components/NewsList';
 
 export default function Home() {
   return (
-    <div>
-      Hi from Home
+    <div className="App">
       <NewsList />
     </div>
   );

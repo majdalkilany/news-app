@@ -2,7 +2,7 @@ import { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
 import { fetchNews, setArticle } from '../redux/store';
-
+import Form from './Form';
 import './newslist.css';
 
 const NewsList = () => {
@@ -12,29 +12,31 @@ const NewsList = () => {
     dispatch(fetchNews());
   }, [dispatch]);
   const news = useSelector((state) => state.news.allData);
+  const search = useSelector((state) => state.news.searchTerm);
 
   return (
     <>
-      {news.slice(0, 15).map((article, i) => (
-        <div
-          key={`${article.title}+${i}`}
-          className="articles-container"
-        >
-          <img src={article.urlToImage} alt={article.title} className="img-article" />
-          {article.title}
-          <Link
-            to="details"
-            onClick={() => {
-              dispatch(setArticle(article));
-            }}
-          >
-            {' '}
-            details
-            {' '}
+      <Form />
+      <div className="news-grid">
+        {news.filter((item) => search.trim() === ''
+            || item.title.toLowerCase().includes(search.toLowerCase()))
+          .map((article, i) => (
 
-          </Link>
-        </div>
-      ))}
+            <Link
+              key={`${article.title}+${i}`}
+              to={`details/${article.title}`}
+              onClick={() => {
+                dispatch(setArticle(article));
+              }}
+              className="news-item"
+            >
+
+              <img src={article.urlToImage} alt={article.title} className="img-article" />
+              <h6>{article.title}</h6>
+
+            </Link>
+          ))}
+      </div>
 
     </>
   );

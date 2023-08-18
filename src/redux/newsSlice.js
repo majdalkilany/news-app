@@ -7,6 +7,7 @@ const newsSlice = createSlice({
   initialState: {
     allData: [],
     article: { test: 'test' },
+    searchTerm: '',
   },
 
   reducers: {
@@ -14,6 +15,10 @@ const newsSlice = createSlice({
       const article = action.payload;
       console.log(article);
       return { ...state, article };
+    },
+    searchTerm(state, action) {
+      const searchTerm = action.payload;
+      return { ...state, searchTerm };
     },
   },
   extraReducers: (builder) => {
@@ -25,4 +30,4 @@ const newsSlice = createSlice({
 });
 
 export const newsReducer = newsSlice.reducer;
-export const { setArticle } = newsSlice.actions;
+export const { setArticle, searchTerm } = newsSlice.actions;
