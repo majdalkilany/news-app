@@ -13,7 +13,6 @@ const newsSlice = createSlice({
   reducers: {
     setArticle(state, action) {
       const article = action.payload;
-      console.log(article);
       return { ...state, article };
     },
     searchTerm(state, action) {
