@@ -11,7 +11,7 @@ const Form = () => {
         <input
           type="search"
           className="searchBox"
-          placeholder="Search New tech News"
+          placeholder="Search New tech"
           onChange={(e) => dispatch(searchTerm(e.target.value))}
         />
       </form>
