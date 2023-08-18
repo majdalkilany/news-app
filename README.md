@@ -1,8 +1,8 @@
 <a name="readme-top"></a>
 
 <div align="center">
-
-  <h1><b> news-app </b></h1>
+ <h1> NexusNews</h1>
+  <br/>
 
 </div>
 
@@ -25,11 +25,10 @@
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [📝 License](#license)
 
-# 📖 news-app <a name="about-project"></a>
+# 📖 NexusNews <a name="about-project"></a>
 
-**newsPlus ** NewsPulse would offer a clean and intuitive user interface that displays the latest news from various reputable sources. The app would use algorithms and human curation to prioritize important and trending stories.
+Welcome to "Nexus News": Your all-inclusive app for the latest technology news around the world. With "Nexus News," you'll always be informed about the latest updates and innovations in the world of technology. Whether you're looking for developments in artificial intelligence, quantum computing, or the latest smart devices, we provide you with comprehensive and accurate coverage. Our team of specialized journalists works around the clock to bring you global technology news right to your fingertips. Stay connected and stay tuned to always be at the forefront of tech events.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -47,20 +46,23 @@
 
 <details>
   <summary>APIs</summary>
- news - http://newsapi.org/v2/everything?q=covid19&sortBy=publishedAt&apiKey={}
+  <ul>
+     <li><a href="https://docs.coincap.io/">Coincap</a></li>
+  </ul>
 </details>
 
 ### Key Features <a name="key-features"></a>
 
-- **Uses React Router to control the page routing**
-- **Uses Redux Tool-kit to manage the state for the entire app**
-- **Uses SpaceX Data Api to get data on Rockets and Missions**
+- **Current cryptocurrency market prices from an actively maintined API**
+- **Searh for a specific token by either rank number or name.**
+- **Intuitive UI**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://cosmic-missions.onrender.com/)
+- [Live Demo Link](https://crypto-marketcap-rankings.netlify.app/)
+- [Video Presentation](https://drive.google.com/file/d/1ym0yWNck9CexPrHSmTHlxuBU3nofDG_u/view?usp=sharing)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -70,24 +72,24 @@ To get a local copy up and running, follow these steps.
 
 - Clone this project.
 - Open it in VS code.
-- Run `npm install` to install the dependencies
-- Run `npm start` to open it in the dev server
+- Run `npm install` to install the dependencies.
+- Run `npm start` to open it in the dev server.
 
 ### Prerequisites
 
 In order to run this project you need:
 
-Git
-A GitHub account
-VS-Code
-<a href="https://github.com/microverseinc/linters-config/tree/master/react-redux">React and Redux linters</a>
-<a href="https://nodejs.org/">Node.js</a>
+- Git
+- A GitHub account
+- VS-Code
+- <a href="https://github.com/microverseinc/linters-config/tree/master/react-redux">React and Redux linters</a>
+- <a href="https://nodejs.org/">Node.js</a>
 
 ### Setup
 
 Clone this repository to your desired folder:
 
-https://github.com/badger-99/space-travelers-hub.git
+https://github.com/badger-99/crypto-marketcap-rankings.git
 
 ### Install
 
@@ -97,30 +99,31 @@ This project doesn't need to be installed
 
 ### Usage
 
-Join a space mission of your choosing and book an available rocket of your liking for the trip.
+To enable people with an interest in the crypto market keep track of the latest market prices.
 
 ### Run tests
 
-To run tests, run the following command: `npm test`
+Use `npm test` to run tests.
 
 ### Deployment
 
-You can deploy this project by using the dev server. To initiate it, run `npm start` in your cli and the project will open a dev server at http://localhost:3000/
+You can deploy this project by using the dev server. To initiate it, run `npm start` in your cli and the project will open rhe dev server at http://localhost:3000/
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Majd**
+👤 **Alfred**
 
-- GitHub: [@majdalkilany ](https://github.com/majdalkilany)
-- LinkedIn: [majdalkilany](https://www.linkedin.com/in/majdalkilany/)
+- GitHub: [@badger-99](https://github.com/badger-99)
+- Twitter: [@AlfredMkg](https://twitter.com/AlfredMkg)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/alfredm-7b41a0270/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Add reservation page for Dragons**
+- **No planned future features at this point.**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -128,7 +131,7 @@ You can deploy this project by using the dev server. To initiate it, run `npm st
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/badger-99/space-travelers-hub/issues).
+Feel free to check the [issues page](https://github.com/badger-99/crypto-marketcap-rankings/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -140,12 +143,6 @@ If you like this project, please give it a star ⭐️
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-We would like to thank <a href="https://www.microverse.org/">Microverse</a> for providing the guidelines that made this project possible.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## 📝 License <a name="license"></a>
-
-This project is [MIT](./MIT.md) licensed.
+I would like to thank <a href="https://www.microverse.org/">Microverse</a> for providing the guidelines that made this project possible, <a href="https://www.behance.net/sakwadesignstudio">Nelson Sakawa</a> for providing the <a href="https://www.behance.net/gallery/31579789/Ballhead-App-(Free-PSDs)">design</a> for the user interface, and the folks at <a href="https://coincap.io/">CoinCap</a> for making the <a href="https://docs.coincap.io/">API</a> they use freely available to the public.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
