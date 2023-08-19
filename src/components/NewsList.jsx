@@ -3,7 +3,6 @@ import { useDispatch, useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
 import { fetchNews, setArticle } from '../redux/store';
 import Form from './Form';
-import './newslist.css';
 
 const NewsList = () => {
   const dispatch = useDispatch();

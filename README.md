@@ -47,22 +47,20 @@ Welcome to "Nexus News": Your all-inclusive app for the latest technology news a
 <details>
   <summary>APIs</summary>
   <ul>
-     <li><a href="https://docs.coincap.io/">Coincap</a></li>
+     <li><a href="https://newsapi.org/">News Api </a></li>
   </ul>
 </details>
 
 ### Key Features <a name="key-features"></a>
 
-- **Current cryptocurrency market prices from an actively maintined API**
-- **Searh for a specific token by either rank number or name.**
-- **Intuitive UI**
+-Stay updated with the latest events using our intuitive news app, featuring personalized article recommendations based on your interests and real-time notifications to ensure you never miss a breaking story. Enjoy seamless navigation and in-depth coverage, all designed for an immersive news-reading experience.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://crypto-marketcap-rankings.netlify.app/)
-- [Video Presentation](https://drive.google.com/file/d/1ym0yWNck9CexPrHSmTHlxuBU3nofDG_u/view?usp=sharing)
+- [Live Demo Link](https://nexusnews.onrender.com/)
+- [Video Presentation](https://drive.google.com/file/d/15U5N6RPLBOB-_DMg6Omsmgf0-UEzB52q/view?usp=sharing)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -89,7 +87,7 @@ In order to run this project you need:
 
 Clone this repository to your desired folder:
 
-https://github.com/badger-99/crypto-marketcap-rankings.git
+https://github.com/majdalkilany/news-app
 
 ### Install
 
@@ -113,11 +111,10 @@ You can deploy this project by using the dev server. To initiate it, run `npm st
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Alfred**
+👤 **MAjd**
 
-- GitHub: [@badger-99](https://github.com/badger-99)
-- Twitter: [@AlfredMkg](https://twitter.com/AlfredMkg)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/alfredm-7b41a0270/)
+- GitHub: [@badger-99](https://github.com/majdalkilany)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/majdalkilany/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -131,7 +128,7 @@ You can deploy this project by using the dev server. To initiate it, run `npm st
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/badger-99/crypto-marketcap-rankings/issues).
+Feel free to check the [issues page](https://github.com/majdalkilany/news-app/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
