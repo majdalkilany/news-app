@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Caesar+Dressing&family=Lato:ital,wght@0,100;0,300;0,400;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  background-color: #f0f0f0;
+}
+
+h1 {
+  font-family: 'Caesar Dressing', cursive;
+  color: #3c948b;
+  margin: 10px;
+}
+
+nav {
+  margin: 10px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #3c948b;
+}

@@ -1,0 +1,50 @@
+.table-container {
+  background-color: black;
+  color: white;
+  padding: 15px;
+}
+
+.article-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.img-article-details {
+  width: 100%;
+}
+
+.article-details {
+  padding: 0;
+  width: 100%;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.article-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 5px 25px;
+}
+
+.article-details .article-item:nth-child(odd) {
+  background-color: #3c948b;
+  color: #fff;
+}
+
+.article-details .article-item:nth-child(even) {
+  background-color: #fff;
+  color: #000;
+}
+
+.description {
+  display: block;
+}
+
+.span-title {
+  font-weight: bold;
+}
