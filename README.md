@@ -113,7 +113,7 @@ You can deploy this project by using the dev server. To initiate it, run `npm st
 
 👤 **MAjd**
 
-- GitHub: [@badger-99](https://github.com/majdalkilany)
+- GitHub: [Majd alkilany](https://github.com/majdalkilany)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/majdalkilany/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
